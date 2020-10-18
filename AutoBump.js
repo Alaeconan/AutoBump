@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const config = new require("./config.json");
 const TOKEN = config.token;
 
-bot.login(TOKEN);
+bot.login(NzY3NDE2NTEwNzIwNjM5MDM2.X4xmUg.5ON95kAMNmh8xS_CAtKWgsaUq88);
 
 bot.on("message", function(message)
 {
