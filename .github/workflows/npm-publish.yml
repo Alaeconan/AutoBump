@@ -39,9 +39,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: [12.X]
+          node-version: 12.X
           registry-url: https://npm.pkg.github.com/
       - run: npm i
-      - run: npm AutoBump.js
+      - run: npm index.js
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
